@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: proteosim
+Version: 0.1.0
+Summary: with the functions in this package we can simulate a MS. It includes reading Fasta files with seqences, digesting them and calculating the m/z values and retention times.
+Author: Anna van der Ham
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pyteomics
+Dynamic: license-file
+
+# proteosim
+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
+
+Proteosim Course Package
+
+with the functions in this package we can simulate a MS. It includes reading Fasta files with seqences, digesting them and calculating the m/z values and retention times.
