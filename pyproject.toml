@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proteosim"
+version = "0.1.0"
+description = "with the functions in this package we can simulate a MS. It includes reading Fasta files with seqences, digesting them and calculating the m/z values and retention times."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Anna van der Ham" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pytest", "pandas", "matplotlib", "pyteomics"
+]
+
+[tool.setuptools.packages.find]
+include = ["proteosim"]
