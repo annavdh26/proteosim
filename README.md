@@ -1,5 +1,5 @@
 # proteosim
-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
+
 
 Proteosim Course Package
 
