@@ -12,7 +12,7 @@ authors = [{ name = "Anna van der Ham" }]
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
-    "pytest", "pandas", "matplotlib", "pyteomics"
+    "pytest", "pandas", "matplotlib", "pyteomics","re"
 ]
 
 [tool.setuptools.packages.find]
