@@ -1,4 +1,5 @@
 import proteosim as ps
+import re
 def test_digest_protein_collection():
     dummy_proteins = {
         "A111":"ABCDEFG",
