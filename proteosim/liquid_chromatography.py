@@ -1,5 +1,5 @@
-import pyteomics
-import achrom
+from pyteomics import achrom
+
 
 def predict_lc_retention_times(peptides):
     """
